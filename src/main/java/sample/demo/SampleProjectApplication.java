@@ -13,7 +13,7 @@ public class SampleProjectApplication {
 	}
 
 	@Getmapping("/")
-	public welcomepage(){
+	public welcomepage() {
 		return "Welcome to my page";
 	}
         
