@@ -7,13 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @RestController
 public class SampleProjectApplication {
 
-        Run|Debug
+	Run|Debug
 	public static void main(String[] args) {
 		SpringApplication.run(SampleProjectApplication.class, args);
 	}
         
-        @Getmapping("/")
-        public welcomepage(){
+	@Getmapping("/")
+	public welcomepage(){
 		return "welcome to my page";
 	}
 }
